@@ -54,7 +54,7 @@ void traverse(Node* head){
     Node* temp = head;
     printf("Forward Traversal: ");
     while (temp != NULL) {
-        printf("%d ", temp->data);  // space added
+        printf("%d ", temp->data);  
         temp = temp->next;
     }
     printf("\n");
@@ -64,7 +64,7 @@ void reverseTraverse(Node* tail){
     Node* temp = tail;
     printf("Reverse Traversal: ");
     while (temp != NULL){
-        printf("%d ", temp->data);  // space added
+        printf("%d ", temp->data);  
         temp = temp->prev;
     }
     printf ("\n");
